@@ -14,12 +14,12 @@ class MidnightCallApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,
-        primaryColor: Colors.redAccent,
-        scaffoldBackgroundColor: const Color(0xFF121212),
+        primaryColor: Colors.indigoAccent,
+        scaffoldBackgroundColor: const Color(0xFF0F111A), // Darker, slightly blue-tinted background
         colorScheme: const ColorScheme.dark(
-          primary: Colors.redAccent,
+          primary: Colors.indigoAccent,
           secondary: Colors.tealAccent,
-          surface: Color(0xFF1E1E1E),
+          surface: Color(0xFF1A1C29),
         ),
         useMaterial3: true,
         textTheme: const TextTheme(
@@ -58,78 +58,79 @@ class Chapter {
 
 final List<Chapter> storyChapters = [
   const Chapter(
-    title: 'Chapter 1 – The Midnight Call',
-    content: '''It was a quiet night in Oregon. Most of the town was asleep, unaware that something strange was about to happen. At 2:17 AM, a 911 call came through. There was no screaming. No crying. Just a single, shaky voice and heavy breathing.
+    title: 'Chapter 1 – The Echo of a Memory',
+    content: '''It wasn't just a quiet night in Oregon; it was a lonely one. At 2:17 AM, the console lit up. Elena, a dispatcher who had spent years listening to the worst moments of people's lives, answered. But this wasn't a scream. It was a whimper. A sound so fragile it broke the silence of the room like dropped glass.
 
-The dispatcher assumed it was a prank at first, but something about the tone was different—desperate, almost terrified. The caller whispered:
 "I can't move… he's here."
 
-The line stayed open. For six full minutes.
+The voice wasn't just terrified; it was resigned. It sounded like a child who had given up on being found. Elena’s heart hammered—not out of fear, but out of a sudden, crushing memory of her own loss years ago. She leaned in, her voice trembling, "Honey, I'm here. You're not alone."
 
-The dispatcher tried to ask questions, but no answers came—only the sound of ragged breathing. There was an odd background noise: faint footsteps, a creaking floor, as if someone was pacing nearby.
+But the line just breathed back at her. A heavy, wet sound. And in the background, the creak of floorboards—slow, deliberate, like a predator savoring the fear.
 
-Other calls were coming in at the same time, but this one was different. The dispatcher felt a chill, a creeping sense of wrongness that she couldn’t explain. This wasn’t a regular emergency. Something was inside that house. Something that wasn’t supposed to be there.
+Other calls were coming in, but Elena couldn't look away. She felt a chill, not of danger, but of profound sadness. This wasn't just an emergency; it felt like a goodbye.
 
-As the call continued, the dispatcher called in the officers. Police began driving to the address, tracing the line. But when they arrived at the location, it didn’t make sense. The house was abandoned. Empty. Dark.
-
-And yet… the call never ended.''',
+As the call continued, she sent the officers. But deep down, she felt a sinking realization. The voice on the other end wasn't speaking to her. It was speaking to the dark.''',
   ),
   const Chapter(
-    title: 'Chapter 2 – Arrival at the House',
-    content: '''Police arrived within eight minutes, their sirens slicing through the silent streets. The house stood at the edge of town, old and crumbling. Windows were broken, paint peeling, and weeds had overtaken the yard. The front door was unlocked.
+    title: 'Chapter 2 – The House of Lost Things',
+    content: '''The police arrived, but the sirens felt intrusive in the heavy silence of the street. The house stood at the edge of town, looking like it had died of a broken heart. Weeds choked the garden where flowers once bloomed. The front door was unlocked, swinging slightly in the wind.
 
-Officers entered cautiously. Flashlights cut through the darkness. Dust hung in the air, particles drifting in the narrow beams. Not a single soul was inside. No furniture, no signs of anyone living there, no footprints in the dirt-covered floors.
+Officers entered cautiously. Flashlights cut through the darkness. Dust hung in the air, particles drifting like lost memories. No furniture, but in the corner of the living room, a single, dusty teddy bear sat facing the wall.
 
-But then, the strangest thing happened—the phone was still connected. Lying on the floor. The 911 call was still active, the dispatcher’s voice faint but present.
+And there, lying on the bare floorboards, was the phone. Connected.
 
-As they explored further, they noticed unusual markings on the walls—scratches, almost like someone had tried to claw their way out. But no blood. No evidence of a struggle. Just… emptiness.
+Elena’s voice came through it, tinny and desperate, begging the caller to speak.
+Officer Miller picked it up, his hand shaking. "Dispatch, the house is empty."
 
-The dispatcher was still on the line. She described hearing a faint whisper, not from the caller, but from a second voice. Low, distorted, almost inhuman:
+"No," Elena whispered back, tears stinging her eyes. "I can hear him breathing. I can hear him crying."
+
+Then, a new sound filled the room. Not from the phone, but from the walls themselves. A soft, weeping whisper:
 "He sees you now."
 
-Police radioed each other in disbelief. The house was abandoned. There was no one else around. And yet, the whispers were real. The line remained active, the voice unmistakable.
-
-The officers were unnerved. Each step echoed too loudly, and the shadows seemed to move on their own. Something was not right. And the worst part—they couldn’t explain the call.''',
+It wasn't a threat. It was a warning. A plea from a soul trapped in the moment of its ending. The officers lowered their weapons, unnerved not by a monster, but by the overwhelming weight of grief in the room.''',
   ),
   const Chapter(
-    title: 'Chapter 3 – The Impossible Audio',
-    content: '''Back at the dispatch center, the audio was replayed. The six-minute recording contained sounds that no one could identify. Heavy breathing, faint footsteps, scratching. At 4 minutes and 32 seconds, the second voice appeared again.
+    title: 'Chapter 3 – The Recording of Grief',
+    content: '''Back at the station, they played the audio. It was six minutes of torture. Beneath the heavy breathing, audio specialists isolated a sound that made the hardened chief of police look away in tears.
+
+It was a lullaby. Someone, or something, was humming a twisted, sorrowful tune while the caller struggled to breathe.
 
 "He sees you now."
 
-The dispatcher recognized it immediately as not belonging to the caller. Something else was present. Something unseen. Audio specialists listened in horror, unable to isolate the source.
+The voice wasn't demonic. It was hollow. Devoid of hope.
 
-The phone number used was traced. But shockingly, it didn’t exist. It was never registered to anyone. Law enforcement tried every database, every log. Nothing.
+They traced the number. It belonged to a landline disconnected fifteen years ago. The home of the Sullivan family, whose youngest daughter, Lily, had vanished without a trace.
 
-The phenomenon raised questions that had no answers. Could it have been a prank? Impossible—the call had lasted six minutes, with footsteps perfectly synchronized to the breathing. Could it have been a technical glitch? Perhaps. But glitches don’t whisper threats.
+Elena stared at the screen, her hand over her mouth. The call hadn't come from a phone. It had come from the past. A time loop of a little girl's final moments, finally reaching out to someone who would listen.
 
-Experts debated. Paranormal investigators suggested the house could be… haunted. Skeptics said the dispatcher’s mind was playing tricks. Yet, every officer who entered the house felt the same cold, creeping sensation. The air was different. The energy was heavy.
-
-This wasn’t an ordinary emergency call. This was something that crossed into the unexplained. And the recording… was just the beginning.''',
+The skeptics tried to explain it away as a glitch, but Elena knew better. Glitches don't cry. Glitches don't ask for their mothers. The energy in the recording wasn't just static; it was pure, distilled loneliness.''',
   ),
   const Chapter(
-    title: 'Chapter 4 – The Police Investigation',
-    content: '''Over the next three days, police scoured the house. They measured everything, dusted for fingerprints, collected debris, and examined the walls. No one had entered or left recently. No signs of a struggle, no footprints, no DNA evidence.
+    title: 'Chapter 4 – Cold Case Reopened',
+    content: '''The investigation wasn't a hunt for a killer; it was an excavation of tragedy. They found scratch marks inside the closet—small, frantic grooves near the floor. They found a loose board with a diary underneath.
 
-Detectives interviewed the dispatcher repeatedly. Every detail was verified. The voice, the timing, the background noises—everything was consistent. The officers themselves reported strange sensations inside the house: cold drafts in sealed rooms, sudden feelings of dread, the unshakable sense of being watched.
+"I don't like the man in the wall," the entry read.
 
-News of the call leaked online. Social media was ablaze. Conspiracy theories erupted: ghosts, interdimensional beings, government experiments. But police confirmed: the case files were legitimate. The recording was authentic.
+The officers felt it—the cold draft that wasn't wind, but the chill of a presence that had been waiting in the dark for a decade.
 
-For the town, fear spread quietly. Residents whispered about the abandoned house. Some swore they heard strange noises at night. Others avoided the street entirely.
+Elena couldn't sleep. She felt a connection to the voice. She realized the "he" wasn't a monster, but a man who had hidden in the house years ago. The horror wasn't ghosts; it was the cruelty of the living. The spirit was just the echo of the pain left behind.
 
-The call became a puzzle that no one could solve. Every lead hit a dead end. Every logical explanation failed. And the house remained empty… yet alive in its own terrifying way.''',
+News leaked, but this time, the town didn't gossip. They mourned. The abandoned house wasn't just a spooky ruin anymore; it was a monument to a child the town had failed to protect.
+
+The call became a puzzle that broke everyone who tried to solve it. The house remained empty, yet alive with the memory of what was lost.''',
   ),
   const Chapter(
-    title: 'Chapter 5 – The Unsolved Mystery',
-    content: '''Months passed. The recording was classified for further study, but no new evidence emerged. The dispatcher returned to her regular work, though she never forgot the heavy, whispering voice. The officers moved on, but the story lingered in their minds.
+    title: 'Chapter 5 – The Final Goodbye',
+    content: '''Months later, the case was closed, but not solved. The house was blessed and finally demolished, the ground cleared as if to wipe away the stain of what happened.
 
-The house remained abandoned. Locals avoided it, claiming they felt an unseen presence, shadows that moved when no one was there. Paranormal enthusiasts occasionally tried to investigate, only to report unnerving experiences. Some claimed to hear the same whisper over old phone lines or radios.
+Elena visited the empty lot. She placed a single white rose on the dirt.
+"You're safe now," she whispered. "We heard you."
 
-The most chilling fact? The phone number used in the original call never existed. The origin of the call was never discovered. No missing person was ever linked to the house. And the second voice… the one that whispered “He sees you now”… remained unidentified.
+The wind picked up, rustling the trees. For a moment, the air felt warm, not cold. A sense of release washed over her. The phone didn't ring that night. The heavy breathing was gone.
 
-To this day, the case is officially unsolved. It is recorded as one of the most mysterious 911 calls in the country, a story that haunts dispatchers, officers, and anyone who hears the recording.
+The mystery remained—how the call was made, how the line stayed open. But Elena knew. It wasn't a glitch. It was a child reaching across the veil of death, not to scare them, but to be found. To not be alone in the dark anymore.
 
-Sometimes, the scariest calls for help come from those who are already gone. And sometimes, the world is left with questions that may never be answered.''',
+Sometimes, the dead don't haunt us to hurt us. They haunt us because they just want to go home. And sometimes, the only way to set them free is to simply listen.''',
   ),
 ];
 
